@@ -1,7 +1,7 @@
-var aaaaa = new Audio();
-aaaaa.src = "aaaa.mp3";
-var guh_huh = new Audio();
-guh_huh.src = "Cranberry Animated - Sprite Cranberry TV Commercial, Featuring LeBron James.mp3"
+//var aaaaa = new Audio();
+//aaaaa.src = "aaaa.mp3";
+//var guh_huh = new Audio("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+//guh_huh.src = "Cranberry Animated - Sprite Cranberry TV Commercial, Featuring LeBron James.mp3"
 var bbbbb = new Audio();
 bbbbb.src = "";
 var ccccc = new Audio();
@@ -18,14 +18,17 @@ ggggg.src = "";
 var muteToggle = document.getElementById("soundToggle").checked;
 
 function soundPlayA(){
-    if (muteToggle == false){
-        aaaaa.play();
-    }
+    //if (muteToggle == false){
+    var A = new Audio("aaaa.mp3");
+    A.play();
+    //}
 }
+
 function soundPlayGuhHuh(){
-    if (muteToggle == false) {
-        guh_huh.play();
-    }
+    //if (muteToggle == false){
+        //var guh_huh = new Audio("https://discord.com/channels/714525202738053241/714525202738053244/835887470520172635");
+        //guh_huh.play();
+    
 }
 function soundPlayB(){
     if (muteToggle == false){
