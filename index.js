@@ -18,17 +18,17 @@ ggggg.src = "";
 var muteToggle = document.getElementById("soundToggle").checked;
 
 function soundPlayA(){
-    //if (muteToggle == false){
-    var A = new Audio("aaaa.mp3");
-    A.play();
-    //}
+    if (document.getElementById("soundToggle").checked == true) {
+        var A = new Audio("aaaa.mp3");
+        A.play();
+    };
 }
 
 function soundPlayGuhHuh(){
-    //if (muteToggle == false){
-        //var guh_huh = new Audio("https://discord.com/channels/714525202738053241/714525202738053244/835887470520172635");
-        //guh_huh.play();
-    
+    if (document.getElementById("soundToggle").checked == true) {
+        var guh_huh = new Audio("Cranberry Animated - Sprite Cranberry TV Commercial, Featuring Lebron James.mp3");
+        guh_huh.play();
+    };
 }
 function soundPlayB(){
     if (muteToggle == false){
